@@ -197,6 +197,14 @@ body {
   font-weight: 700;
 }
 
+.btn.btn-blue.submit {
+  border: none;
+}
+
+.btn.btn-blue.submit:visited {
+  border: none;
+}
+
 .btn-white {
   background-color: #999999;
   color: #333;
