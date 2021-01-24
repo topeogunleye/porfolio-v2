@@ -64,7 +64,12 @@
       </h2>
 
       <!-- Contact Section -->
-      <form class="form-style-9">
+      <form
+        class="form-style-9"
+        name="contact"
+        method="POST"
+        data-netlify="true"
+      >
         <ul>
           <li>
             <input
@@ -75,7 +80,7 @@
             />
             <input
               type="email"
-              name="field2"
+              name="email"
               class="field-style field-split align-right"
               placeholder="Email"
             />
@@ -111,7 +116,9 @@
           </li>
           <li>
             <!-- <input class="btn btn-blue download"type="submit" value="Send Message" /> -->
-            <a href="" class="btn btn-blue download">Send Message</a>
+            <a href="" class="btn btn-blue download"
+              >Send Message<input type="submit"
+            /></a>
           </li>
         </ul>
       </form>
