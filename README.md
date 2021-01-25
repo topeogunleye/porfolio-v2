@@ -5,6 +5,7 @@ This is the second version of my Web Developer Portfolio created with HTML/CSS, 
 ## Project Specifications
  
 - Uses plain HTML/CSS
-- No use of javascript libraries
+- Uses CSS animations
+- No use of javascript
 
-[live demo](https://temi.dev/index.html)
+[live demo](https://topev2.netlify.app/)
