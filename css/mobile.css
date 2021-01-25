@@ -1,7 +1,7 @@
 :root {
-  --primary-color: rgba(184,174,164, 0.75);
-  --secondary-color: rgba(229, 148, 0 , 0.9);
-  --overlay-color: rgba(207,196,185 , 0.85);
+  --primary-color: rgba(184, 174, 164, 0.75);
+  --secondary-color: rgba(229, 148, 0, 0.9);
+  --overlay-color: rgba(207, 196, 185, 0.85);
   --menu-speed: 0.75s;
 }
 
@@ -18,6 +18,11 @@ body {
   display: block;
   flex-direction: column;
 }
+
+input.toggler {
+  display: initial;
+}
+
 .background {
   width: 541px;
 }
@@ -89,7 +94,8 @@ body {
   height: 800px;
 }
 
-.bg-right-container .btn.btn-blue.resume,.bg-right-container .btn.btn-white.projects {
+.bg-right-container .btn.btn-blue.resume,
+.bg-right-container .btn.btn-white.projects {
   display: none;
 }
 
@@ -110,7 +116,6 @@ body {
   font-size: 20px;
 }
 
-
 .btn:link,
 .btn:visited {
   padding: 15px 50px;
@@ -122,7 +127,6 @@ body {
   transform: translateY(-60px) translateX(12px);
 }
 /* transform: translateY(0rem) translateX(0); */
-
 
 /* Footer Section */
 .follow h3 {
@@ -166,9 +170,8 @@ body {
   padding: 20px 20px;
 }
 
-
 /* Projects Section */
-.background{
+.background {
   width: fit-content;
 }
 .box {
@@ -220,8 +223,6 @@ div.project-text.exp-left.two {
   height: 48px;
   transform: translateX(-51px);
 }
-
-
 
 .exp-right {
   padding: 2rem;
@@ -283,7 +284,6 @@ footer.footer.reduce-width .follow {
   width:min-content */
 }
 
-
 /* Contact */
 h2.contact {
   margin-top: 30px;
@@ -299,17 +299,17 @@ h2.contact {
 }
 
 .box.resume {
-    background: #fff;
-    width: fit-content;
-    height: fit-content;
-    padding-top: 0;
-    margin-top: 45px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    position: relative;
+  background: #fff;
+  width: fit-content;
+  height: fit-content;
+  padding-top: 0;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
 }
 
 .top.box.resume {
@@ -319,7 +319,7 @@ h2.contact {
 
 .prog-prof ul {
   display: grid;
-  grid-template: 50px 50px / 200px 200px ;
+  grid-template: 50px 50px / 200px 200px;
 }
 
 .prog-prof {
