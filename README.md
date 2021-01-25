@@ -1,5 +1,5 @@
 ## Developer Portfolio Website
-This is my Web Developer Portfolio created with HTML and CSS
+This is the second version of my Web Developer Portfolio created with HTML/CSS, and CSS animations.
 
 
 ## Project Specifications
