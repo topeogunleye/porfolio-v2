@@ -1,0 +1,21 @@
+.background {
+  width: 100vw;
+}
+
+.footer.reduce-width-resume {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.follow {
+  width: 100vw;
+}
+
+.background-right {
+  background:  #e6dace;
+}
+
+.form-style-9 {
+  width: 90%;
+}

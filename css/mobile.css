@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgba(184, 174, 164, 0.75);
+  --primary-color: rgba(13, 110, 139, 0.75);
   --secondary-color: rgba(229, 148, 0, 0.9);
   --overlay-color: rgba(207, 196, 185, 0.85);
   --menu-speed: 0.75s;
@@ -7,24 +7,37 @@
 
 /* About Me Section */
 body {
-  width: 541px;
+  width: fit-content;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0.2;
+  }
+
+  40% {
+    opacity: 0.4;
+  }
+
+  60% {
+    opacity: 0.6;
+  }
+
+  80% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 #navbar {
   display: flex;
   flex-direction: column;
-}
-
-.left-sidebar {
-  display: block;
-  flex-direction: column;
-}
-
-input.toggler {
-  display: initial;
-}
-
-.background {
-  width: 541px;
 }
 .background.resume {
   width: 541px;
@@ -36,7 +49,7 @@ input.toggler {
 }
 
 .background-left {
-  height: 400px;
+  height: 550px;
   background: #e6dace;
 }
 
@@ -70,6 +83,9 @@ input.toggler {
 .profile-image-btn {
   display: flex;
   margin-top: 75px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .profile-image p {
@@ -88,15 +104,10 @@ input.toggler {
 }
 
 .bg-right-container {
-  margin-top: 10rem;
+  margin-top: 0;
   transform: translateX(-40px);
   width: 400px;
   height: 800px;
-}
-
-.bg-right-container .btn.btn-blue.resume,
-.bg-right-container .btn.btn-white.projects {
-  display: none;
 }
 
 .background-right .header {
@@ -104,6 +115,10 @@ input.toggler {
   font-weight: 700;
   margin-top: 168px;
   padding-bottom: 0;
+}
+
+.bg-right-btn {
+  display: none;
 }
 
 .dev-description .first-p {
@@ -123,9 +138,11 @@ input.toggler {
 }
 
 .btn.btn-blue.resume,
-.btn.btn-white.projects {
+.btn.btn-brown.projects {
   transform: translateY(-60px) translateX(12px);
+  display: inline-block;
 }
+
 /* transform: translateY(0rem) translateX(0); */
 
 /* Footer Section */
@@ -155,10 +172,11 @@ input.toggler {
   z-index: 2;
   width: fit-content;
   background: #e6dace;
-  transform: translateY(52rem) translateX(0);
+  transform: translateY(43rem) translateX(0);
 }
 
 .follow {
+  /* transform: translateY(46.5rem) translateX(5.2rem); */
   font-size: 30px;
   margin-top: 0;
   background: #e6dace;
@@ -172,7 +190,7 @@ input.toggler {
 
 /* Projects Section */
 .background {
-  width: fit-content;
+  width: 541px;
 }
 .box {
   background: #fff;
@@ -188,6 +206,8 @@ input.toggler {
   position: relative;
 }
 
+.box {
+}
 .box:first-of-type {
   margin-bottom: 500px;
 }
@@ -291,6 +311,9 @@ h2.contact {
   align-items: center;
 }
 
+.form-style-9 {
+  width: 90%;
+}
 /* Resume */
 .exp-left.resume {
   margin-left: 20px;
@@ -334,22 +357,12 @@ h2.contact {
   width: 410px;
 }
 
-.form-style-9 {
-  width: 541px;
-}
-
-.form-style-9 ul li:last-child {
-  display: grid;
-  place-items: center;
-}
-
 /* NavBar */
 #navbar ul {
   display: flex;
   align-items: center;
   list-style: none;
   flex-direction: column;
-  /*transition: all 2s ease-in-out;*/
 }
 
 #navbar ul li a:focus {
@@ -363,3 +376,11 @@ h2.contact {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
 }
+
+/* Animation */
+/* .background {
+  animation-duration: 0.5s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+} */

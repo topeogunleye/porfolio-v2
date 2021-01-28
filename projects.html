@@ -16,46 +16,47 @@
     />
     <link
       rel="stylesheet"
-      media="screen and (max-width: 823px)"
-      href="css/menu.css"
-    />
-    <link
-      rel="stylesheet"
       media="screen and (max-height: 540px)"
-      href="css/mobile2.css"
+      href="css/tablet.css"
     />
     <link
       rel="stylesheet"
-      media="(min-height: 719px) and (max-height: 720px)"
-      href="css/mobile3.css"
+      media="screen
+    and (device-width : 768px) 
+    and (device-height: 1024px)"
+      href="css/ipad.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 854px)"
+      href="css/menu.css"
     />
   </head>
   <body>
     <nav id="navbar">
       <div class="left-sidebar">
-        <span class="name"
-          ><div class="tinybox"></div>
-          Tope Ogunleye</span
-        >
+            <span class="name"
+            ><div class="tinybox"></div>
+              Tope Ogunleye</span
+            >
         <span class="job">&#47;Web Developer</span>
       </div>
       <div class="menu-wrap">
-        <input type="checkbox" class="toggler" />
-        <div class="hamburger"><div></div></div>
-        <div class="menu">
-          <div>
-            <div class="right-sidebar">
-              <ul>
-                <li><a href="./index.html" id="about">ABOUT ME</a></li>
-                <li><a href="./projects.html" class="projects">PROJECTS</a></li>
-                <li><a href="./resume.html" class="resume">RESUME</a></li>
-                <li><a href="./contact.html" id="contacts">CONTACT</a></li>
-              </ul>
-            </div>
+        <button class="ham"></button>
+        <div>
+          <div class="navbar right-sidebar">
+            <ul>
+              <li><a href="./index.html" id="about" class="menuLink">ABOUT ME</a></li>
+              <li><a href="./projects.html" class="projects menuLink">PROJECTS</a></li>
+              <li><a href="./resume.html" class="resume menuLink">RESUME</a></li>
+              <li><a href="./contact.html" id="contact" class="menuLink">CONTACT</a></li>
+            </ul>
           </div>
         </div>
       </div>
+      </div>
     </nav>
+    
 
     <div class="background">
       <h2 class="projects">
