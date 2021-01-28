@@ -365,9 +365,9 @@ h2.contact {
   flex-direction: column;
 }
 
-#navbar ul li a:focus {
+/* #navbar ul li a:focus {
   font-size: 3rem;
-}
+} */
 
 #navbar ul li a:hover {
   font-size: 3rem;
