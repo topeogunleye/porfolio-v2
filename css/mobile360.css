@@ -78,7 +78,7 @@ body {
   background: #f0e8e1;
   z-index: 1;
   position: absolute;
-  top: 50px;
+  top: 100px;
   left: 50px;
   border: 2px;
   left: 50%; /* Move 50% from left */
