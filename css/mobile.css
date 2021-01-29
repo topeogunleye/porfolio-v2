@@ -40,7 +40,7 @@ body {
   flex-direction: column;
 }
 .background.resume {
-  width: 541px;
+  width: 100vw;
   margin: auto;
 }
 .background-container {
