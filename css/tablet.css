@@ -13,9 +13,42 @@
 }
 
 .background-right {
-  background:  #e6dace;
+  background: #e6dace;
+}
+
+.bar {
+  transform: translateX(-45px);
 }
 
 .form-style-9 {
   width: 90%;
+}
+
+.background-right {
+  height: 0;
+}
+
+.bg-right-container {
+  margin-top: 0;
+  transform: translateX(0);
+}
+
+div.project-text.exp-left.one {
+  margin-top: 15rem;
+}
+
+.project-headline .edgeledger {
+  margin-top: 50px;
+}
+
+#projects {
+  width: 541px;
+}
+
+.project-headline.edgeledger {
+  margin-top: 60%;
+}
+
+.exp-right .second-paragraph {
+  display: initial;
 }
