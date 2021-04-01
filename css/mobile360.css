@@ -141,7 +141,7 @@ body {
 .dev-description .first-p {
   margin-bottom: 30px;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .dev-description .second-p {
@@ -159,7 +159,7 @@ body {
   transform: translateY(0px) translateX(12px);
   display: inline-block;
   padding: 20% 60%;
-  font-size: 100%;
+  font-size: 120%;
 }
 
 /* transform: translateY(0rem) translateX(0); */
@@ -256,7 +256,7 @@ div.project-text.exp-left.two {
 
 .project-headline .button .btn.btn-blue {
   padding: 15px 15px;
-  font-size: 70%;
+  font-size: 78%;
 }
 
 .bar {
@@ -394,11 +394,25 @@ h2.contact {
   margin-bottom: 10px;
 }
 
+
 .header-container {
-  width: 100%;
-  font-size: 65%;
-  flex-direction: column-reverse;
+  width: auto; 
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
+
+.header-container .item {
+  /*  Stretching: */
+  flex: 1 1 150px; 
+
+  /* No stretching: */
+  flex: 0 1 190px;  
+  margin: 5px;
+}
+
 
 .header-container h2 {
   font-size: 190%;

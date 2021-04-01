@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap");
-
 :root {
   --shd: -11.31px 11.31px 25px 0px rgba(138,131,124,0.23);
 }
@@ -7,6 +6,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -shd: -11.31px 11.31px 25px 0px rgba(138,131,124,0.23);
 }
 .html {
   scroll-behavior: smooth;
@@ -246,6 +246,7 @@ button {
 .dev-description .first-p {
   margin-bottom: 30px;
   margin-top: 70px;
+  font-size: 30px;
 }
 
 .background-right .bg-right-container .dev-description {
@@ -314,8 +315,18 @@ h2.projects {
   margin-bottom: 0;
 }
 
+.header-container .item {
+    flex: 1 1 150px; /*  Stretching: */
+    flex: 0 1 150px; /*  No stretching: */
+    margin: 5px;
+}
+
 .header-container .edu-head {
   margin-top: 80px;
+}
+
+.ind-head {
+  margin-top: 40px;
 }
 
 .header-container:first-of-type {
@@ -392,17 +403,35 @@ prog-list ul {
 
 /* Programming Languague Proficiency */
 
-prog-list ul li {
+.industry-expertise li {
   list-style: none;
   padding: 10px;
   width: 240px;
   display: flex;
 }
 
-prog-list ul li a {
+.industry-expertise li a {
   text-decoration: none;
   font-size: 13px;
   color: black;
+  width: inherit;
+}
+
+.industry-expertise {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.industry-expertise .item {
+  flex: 1 1 150px; /*  Stretching: */
+ 
+  margin: 5px;
+}
+
+.industry-expertise-h2 {
+  display: flex;
+  align-items: flex-start;
 }
 
 .industry-skills h2 {
@@ -490,6 +519,10 @@ prog-list ul li a {
   font-size: 15px;
 }
 
+.project-container.box {
+ position: relative;
+}
+
 .top.box.resume h2 {
   padding-top: 40px;
 }
@@ -499,10 +532,6 @@ div.industry-skills.box {
   margin-bottom: 200px;
 }
 
-div.industry-skills.box {
-  padding-bottom: 350px;
-  padding-right: 170px;
-}
 .project-headline {
   display: flex;
   max-width: 400px;
@@ -559,7 +588,6 @@ h2.contact {
   /* box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
 	border-radius: 10px; */
   /* border: 6px solid #305A72; */
-  box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
 }
 .form-style-9 ul {
   padding: 0;
