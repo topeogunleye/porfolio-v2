@@ -371,6 +371,12 @@ a.btn.btn-blue.download {
 .exp-right {
   padding: 2rem;
   margin-top: 42px;
+  margin-top: 0;
+}
+
+.exp-right.edgeledger {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .exp-right p {
