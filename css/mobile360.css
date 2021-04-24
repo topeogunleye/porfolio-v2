@@ -150,16 +150,20 @@ body {
 
 .btn:link,
 .btn:visited {
-  padding: 15px 50px;
+  padding: 15px 20px;
   font-size: 20px;
 }
 
 .btn.btn-blue.resume,
-.btn.btn-brown.projects {
+.bt-cn.btn-brown.projects {
   transform: translateY(0px) translateX(12px);
   display: inline-block;
   padding: 20% 60%;
   font-size: 120%;
+}
+
+.resume-button {
+  margin-left: 15px;
 }
 
 /* transform: translateY(0rem) translateX(0); */
@@ -249,7 +253,7 @@ div.project-text.exp-left.one {
 }
 
 div.project-text.exp-left.two {
-  margin-top: 23rem;
+  margin-top: 5rem;
   padding: 0;
   padding-left: 0;
 }
@@ -317,7 +321,7 @@ h2.projects {
 
 .p-image {
   width: 100%;
-  margin-top: -25px;
+  /* margin-top: -25px; */
 }
 
 .footer.reduce-margin {
@@ -454,3 +458,4 @@ h2.contact {
   padding-left: 0;
   padding-right: 0;
 }
+
