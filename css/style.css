@@ -1,18 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap');
 :root {
-  --shd: -11.31px 11.31px 25px 0px rgba(138,131,124,0.23);
+  --shd: -11.31px 11.31px 25px 0px rgba(138, 131, 124, 0.23);
 }
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  -shd: -11.31px 11.31px 25px 0px rgba(138,131,124,0.23);
+  -shd: -11.31px 11.31px 25px 0px rgba(138, 131, 124, 0.23);
 }
 .html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   height: 100vh;
 }
 
@@ -130,7 +130,7 @@ button {
   justify-content: space-between;
   flex-direction: column;
   place-items: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 13px;
   /* line-height: 1.1; */
   font-weight: 700;
@@ -217,7 +217,7 @@ button {
 }
 
 .btn::after {
-  content: "";
+  content: '';
   display: inline-block;
   height: 100%;
   width: 100%;
@@ -316,9 +316,9 @@ h2.projects {
 }
 
 .header-container .item {
-    flex: 1 1 150px; /*  Stretching: */
-    flex: 0 1 150px; /*  No stretching: */
-    margin: 5px;
+  flex: 1 1 150px; /*  Stretching: */
+  flex: 0 1 150px; /*  No stretching: */
+  margin: 5px;
 }
 
 .header-container .edu-head {
@@ -336,6 +336,8 @@ h2.projects {
 a.btn.btn-blue.download {
   font-weight: 600;
   font-size: 14px;
+  display: grid;
+  place-items: center;
 }
 
 /* Experience Section */
@@ -349,7 +351,7 @@ a.btn.btn-blue.download {
   display: flex;
   justify-content: space-between;
   position: relative;
-  box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+  box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, 0.6));
 }
 
 .exp-left {
@@ -431,7 +433,7 @@ prog-list ul {
 
 .industry-expertise .item {
   flex: 1 1 150px; /*  Stretching: */
- 
+
   margin: 5px;
 }
 
@@ -495,7 +497,7 @@ prog-list ul {
 }
 
 .btn::after {
-  content: "";
+  content: '';
   display: inline-block;
   height: 100%;
   width: 100%;
@@ -526,7 +528,7 @@ prog-list ul {
 }
 
 .project-container.box {
- position: relative;
+  position: relative;
 }
 
 .top.box.resume h2 {
@@ -543,7 +545,7 @@ div.industry-skills.box {
   max-width: 400px;
   text-align: left;
   color: #0050ff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   margin: 4rem 0;
   position: relative;
